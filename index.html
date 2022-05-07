@@ -1,0 +1,72 @@
+<!DOCTYPE html>  
+<html lang = "en">  
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+<title> The Lifetime Supply Calculator </title>
+</head> 
+
+<!--
+1.) The Lifetime Supply Calculator
+
+Create a webpage that will calculate the expected lifetime supply.
+Write a function named calculateSupply that:
+takes 2 arguments: age, amount per day.
+calculates the amount consumed for the rest of the life (based on a constant max-age).
+outputs the result to the screen like so: "You will need NN to last you until the ripe old age of X"
+-->
+
+<body>
+<center>
+<div class= "formstyle"> 
+<h1 style="color:green;padding:13px;">
+Lifetime Supply Calculator
+</h1>
+<h3>
+Calculate how many meals you need in a year<br>
+to reach a certain ripe old age in your life!
+</h3>
+
+<b>Enter your current age:</b>
+<br>
+
+<input type="number"
+id="age"
+name="age"
+placeholder="age"
+class="inputfield"
+min="1"
+max="2^7"
+value>
+<br>
+<br>
+  
+<b>Enter how many meals you eat in a day:</b>
+<br>
+<input type="number"
+id="amount"
+name="amount"
+placeholder="meal amount"
+class="inputfield"
+min="1"
+max="2^7"
+value>
+<br>
+<br>
+
+<button id="button" onclick="calculateSupply()">
+Calculate your Lifetime!
+</button>
+<br>
+<br>
+
+<p id="ResultText">The Result is:<br>
+<span id="result"></span></p>
+
+<script src="index.js"></script>
+</div>
+
+</center>
+</body>  
+</html>  

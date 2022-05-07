@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(64, 115, 67);
+    background-image: url("wp.jpg");
+}
+
+h1 {  
+    text-align: center; 
+    font-size: 45px;  
+    background-color: rgb(255, 255, 255);  
+    border: 3px solid rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);
+    font-family: 'Bahnschrift', sans-serif; 
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px 0px #222222;
+    margin: 0 60px 0 60px;
+}  
+
+.formstyle  
+{  
+    width: 500px;  
+    height: auto;  
+    margin: 0 auto 0 auto;
+    background-color: rgb(195, 255, 208);
+    border: 3px solid rgb(0, 0, 0);  
+    border-radius: 15px;  
+    padding: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 2px 0px #222222;
+    font-family: 'Bahnschrift', sans-serif;
+}  
+
+input  
+{  
+    width: 220px;
+    background-color: whitesmoke;  
+    color: black;  
+    border: 3px solid black;  
+    border-radius: 5px;     
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Bahnschrift', sans-serif;
+    box-shadow: 2px 2px 2px 0px #5c5c5c;
+    text-align: center;
+
+}
+
+button
+{
+    width: 220px;
+    background-color: rgb(0, 135, 14);  
+    color: rgb(255, 255, 255);  
+    border: 3px solid black;  
+    border-radius: 5px;     
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Bahnschrift', sans-serif;
+    box-shadow: 2px 2px 2px 0px #5c5c5c;
+    text-align: center;
+}
+
+button:hover
+{
+    background-color: blue;
+    color: rgb(129, 129, 129);
+}
+
+#result{
+    font-size: 40px;
+}
